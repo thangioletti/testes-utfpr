@@ -11,7 +11,7 @@ npm test
 # Rodar usando docker
 ```
 docker build -t testesutfpr .
-docker run -it -v ${PWD}/project:/var/node -p 3001:4141 testesutfpr 
+docker run -it -v ${PWD}/project:/var/node -p 3000:4141 testesutfpr 
 npm test
 ```
 

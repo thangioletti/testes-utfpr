@@ -6,7 +6,6 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage && tiny-server ./coverage/lcov-report/"
-
   },
   "repository": {
     "type": "git",
