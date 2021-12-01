@@ -1,0 +1,24 @@
+{
+  "name": "utfpr",
+  "version": "1.0.0",
+  "description": "Lista 5 matéria de testes",
+  "main": "identifier.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage && tiny-server ./coverage/lcov-report/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangioletti/testes-utfpr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thangioletti/testes-utfpr/issues"
+  },
+  "homepage": "https://github.com/thangioletti/testes-utfpr#readme",
+  "devDependencies": {
+    "jest": "^27.4.2"
+  }
+}
